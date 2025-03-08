@@ -1,0 +1,10 @@
+name: SimplePregen
+version: '1.0'
+main: me.mrstick.simplePregen.SimplePregen
+api-version: '1.21'
+authors: [ mrstick ]
+description: A Plugin for Nations SMP
+
+commands:
+  simplepregen:
+    description: Main command of SimplePregen plugin

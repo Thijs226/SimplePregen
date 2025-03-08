@@ -1,0 +1,47 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+############################################################
+# Do not add anything extra in configuration file
+# important steps:
+#   - If a value is in quotes ( "" These things ). Removing them can cause config errors!
+#   - You must restart the server after changing something from here
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Configuration                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+prefix: "&7[&bSimplePregen&7] "
+
+permission-error: "{prefix}&c You do not have access to this!"
+
+command-usage: "{prefix}&c Usage: &f/simplepregen &c<type>"
+
+unknown-type: "{prefix}&c Unknown type"
+player-kicked: "&cRegenerating world. Join back later!"
+
+project-not-found: "&c&l[ALERT!]&c Project {project} not found! Canceled!"
+project-found: "&a&l(!)&a Project {project} found. &3Proceeding..."
+
+starting: "&a&l(!)&3 Starting..."
+kicking: "&a&l(!)&3 Removing players..."
+done: "&a&l(!)&3 All Done..."
+restarting: "&a&l(!)&3 Restarting..."
+
+no-files-found: "&c&l[ALERT!]&c No files found in project {project}! Canceled!"
+downloading-file: "&a&l(!)&a Downloading file: &3{file}"
+downloaded-file: "&a&l(!)&a Downloaded file: &3{file}"
+
+deleting-world: "&a&l(!)&a Deleting old world"
+deleting-world-failed: "&c&l[ALERT!]&c Couldn't delete old world. Canceled!"
+deleted-world: "&a&l(!)&a Deleted old world"
+
+extracting-world: "&a&l(!)&a Extracting new world"
+extracting-world-failed: "&c&l[ALERT!]&c Couldn't extract new world. Canceled!"
+extracted-world: "&a&l(!)&a Extracted new world"
+
+url-found: "&a&l(!)&a Download url: &3{url}"
+url-error: "&c&l[ALERT!]&c Failed to fetch download URL, response code: {code} ({message})"

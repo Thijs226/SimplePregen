@@ -1,0 +1,36 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+############################################################
+# Do not add anything extra in configuration file
+# important steps:
+#   - If a value is in quotes ( "" These things ). Removing them can cause config errors!
+#   - You must restart the server after changing something from here
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Configuration                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# You can get your api key from https://console.curseforge.com/#/api-keys
+api-key: "YOUR_CURSEFORGE_API_KEY"
+
+# Rename it to whatever you want to name the world
+# Note: This also represents the older world that you want to replace!
+world-name: "world"
+
+# Restart the server after adding new world?
+# Note: Restarting is important
+restart-server: true
+
+links:
+  # You only need to enter the names
+  7kX7k: "pregenerated-worlds-7000x7000" # 7000 X 7000
+  6kX6k: "pregenerated-worlds-6000x6000" # 6000 X 6000
+  5kX6k: "pregenerated-worlds-5000x5000"
+  4kX4k: "pregenerated-worlds-4000x4000"
+  3kX3k: "pregenerated-worlds-3000x3000"
+  2kX2k: "pregenerated-worlds-2000x2000"
+  # You can add more
